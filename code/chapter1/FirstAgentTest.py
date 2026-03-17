@@ -2,7 +2,7 @@ AGENT_SYSTEM_PROMPT = """
 你是一个智能旅行助手。你的任务是分析用户的请求，并使用可用工具一步步地解决问题。
 
 # 可用工具:
-- `get_weather(city: str)`: 查询指定城市的实时天气。
+- `get_weather(city: str)`: 查询指定城市的实天气。
 - `get_attraction(city: str, weather: str)`: 根据城市和天气搜索推荐的旅游景点。
 
 # 输出格式要求:
